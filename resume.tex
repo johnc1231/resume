@@ -1,0 +1,37 @@
+\documentclass[12pt]{john_resume}
+\usepackage{kantlipsum}
+\usepackage{relsize}
+
+\begin{document}
+
+\name{John Compitello}
+
+\newcommand{\worksection}[4]{\textlarger[1]{\textbf{#1}, #2 \hspace*{\fill}  #3 \\ \textit{#4}} }
+
+\section{Education}
+\datedsubsection{Northeastern University}{September 2015 - Present}
+
+\section{Programming Experience}
+\begin{tabular}{l l}
+\textbf{Languages:} & Scala, Java, Python, SQL, C\\
+\textbf{Frameworks:} & Apache Spark, JUnit \\
+\textbf{Open Source Contributions:} & Apache Spark, Hail
+\end{tabular}
+
+\section{Work Experience}
+
+\worksection{Broad Institute of MIT and Harvard}{Boston MA}{January - August 2017}{Software Engineering Intern on Hail team}
+\begin{itemize}
+	\item Translated statistical genetics methods into distributed algorithms in Apache Spark to analyze 
+		terabytes of genetic data.
+	\item Increased speed of linear mixed regression by 3x and maximum dataset size by 10x by utilizing 
+		linear algebra theory to eliminate unnecessary computation, breaking up method into discrete parts 	
+		that can be used separately, and rewriting inefficient Spark library methods. 
+	\item Implemented method to generate synthetic genetic datasets to aid in testing and method 
+		development.
+\end{itemize}
+
+
+
+
+\end{document}
