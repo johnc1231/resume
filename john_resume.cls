@@ -34,3 +34,5 @@
 \newcommand{\datedsubsection}[2]{%
   \subsection[#1]{\textbf{#1} \hfill #2}%
 }
+\newcommand{\worksection}[4]{\textlarger[1]{\textbf{#1}, #2 \hspace*{\fill}  #3 \\ \textit{#4}}}
+\newcommand{\boldkeyvalue}[2]{\textbf{\underline{#1}}: #2}
