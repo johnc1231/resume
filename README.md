@@ -1,0 +1,1 @@
+This repository exists both so that I have an easily available version controlled copy of my resume and hopefully so that eventually  my resume will be automatically built and deployed to a static URL whenever I update it. 
